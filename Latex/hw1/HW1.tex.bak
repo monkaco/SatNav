@@ -1,0 +1,107 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[latin1]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{amssymb}
+\usepackage{indentfirst}
+\usepackage{epsfig, psfrag}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{amsmath,amsfonts,amsthm,bm} % Math packages
+\usepackage{multirow, booktabs}
+\usepackage{siunitx}
+\usepackage{tasks}
+\usepackage[hyphens]{url}
+
+\newcommand{\hs}{Cabeça Sensora}
+
+
+\hyphenation{Watch-dog}
+
+\voffset -1.0cm \hoffset -1.0cm \textwidth 15cm \textheight 23cm
+
+\pagestyle{plain}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\vspace*{-1.5cm} \hspace*{1cm}
+ {\small {\mbox{\begin{minipage}{2.0cm}
+\epsfxsize=3.5cm \centerline{\epsffile{../figuras/logos_ufmg/principal_ufmg.jpg}}
+\end{minipage}}} \hspace*{0.9cm}
+\begin{minipage}{12.0cm}{\sf \large \textbf{WEST VIRGINIA UNIVERSITY}}\\
+{\large\sf\textbf{Benjamin M. Statler College of Engineering and Mineral Resources}} \\
+{\sc Department of Mechanical and Aerospace Engineering}
+\end{minipage}
+}
+
+\vspace*{-5mm} \hspace*{-.5cm} {\rule[-1ex]{15cm}{0.02cm}
+
+\parindent 3\parindent
+\vspace*{.1cm}
+
+\vspace*{0.1cm}
+ \begin{center}
+\Large \textbf{Satellite Navigation}
+\end{center}
+
+\vspace*{4cm}
+ \begin{center}
+\Large \textbf{Homework \#1}
+\end{center}
+
+\vspace*{4cm}
+
+\large
+
+\begin{flushright}
+\begin{minipage}{12cm}
+\begin{flushleft}
+\textbf{Aluno:} Rogerio Rodrigues Lima \\[2mm]
+\textbf{Student WVU ID:} 800329625 \\[2mm]
+\textbf{Prof.:} Dr. Gross \\[2mm]
+%\textbf{Disciplina:} Satellite Navigation (MAE 561) \\[2mm]
+\textbf{Subject:} Linear Least Square Positioning Estimation \\[2mm]
+
+\end{flushleft}
+\end{minipage}
+\end{flushright}
+
+\vfill
+
+\begin{center}
+Jan.31 (Spring 2020)
+\end{center}
+
+\thispagestyle{empty}
+
+\newpage
+
+% Sumário
+% \tableofcontents
+
+\newpage
+
+% Página de resolução
+
+% Comando para recortar a imagem:		 trim={<left> <lower> <right> <upper>}
+
+% Estrutura para inserir itens enumeraveis em letras horizontalmente (p.ex.: a) item  b) item   c) item ...)
+%  \begin{tasks}(2)
+%  	\task primeira
+%  	\task segunda
+%  \end{tasks}
+
+
+%\newpage
+
+% Bibliografia
+\bibliographystyle{plain}
+\bibliography{refs}
+
+
+\end{document}
+
+% LINKS UTEIS
+% http://www.tablesgenerator.com/
